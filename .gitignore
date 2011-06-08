@@ -1,0 +1,17 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+
+#RLM ADDITIONS
+#(Rails3Tutorial default)
+tmp/**/*
+#(Rails3Tutorial mods)
+db/*.sqlite3*
+*.log
+/tmp/
+doc/
+*.swp
+*~
+.project
+.DS_Store
